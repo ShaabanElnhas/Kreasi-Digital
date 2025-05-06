@@ -1,0 +1,61 @@
+.UI{
+    display: flex;
+    flex-direction: column;
+    gap:2em;
+    width: 100%;
+}
+
+.UI-head{
+    padding: 8em ;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    gap:2em ;
+    position: relative;
+}
+.UI-head p {
+    color:var(--text-secondray-color) ;
+    line-height: 2em ;
+}
+
+.UI-head h2 {
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1;
+    color:#202020 ;
+    /* letter-spacing: 0%; */
+}
+.UI-head .btn{
+    padding:2em ;
+    position: absolute; 
+    right: 0;
+    bottom:2em ;   
+}
+.UI-head .btn button{
+    background: var(--main-color);
+    color: var(--white-color);
+    border: 0;
+    outline: 0;
+    font-size: 1em;
+    padding: 1em 2em;
+    border-radius: 2em;
+    cursor: pointer;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.btn button:hover {
+    background: #0042e8e1;
+}
+.UI-cards{
+    display: flex;
+    gap: 0;
+    flex-direction: column;
+}
+.card img {
+    width: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,240 @@
+
+        /* Global Styles in testimonial*/
+        .testimonial {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            padding: 2em 1.2em;
+            max-width: 45vw;
+            margin: 0 auto;
+        }
+
+        /* Testimonial Container */
+        .testimonial-container {
+            border-radius: 12px;
+            padding: 40px;
+        }
+
+        /* Header Section */
+        .section-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .section-header h2 {
+            font-size: 2em;
+            color: var(--black-color);
+            margin: 10px 0;
+            font-weight: 700;
+        }
+        .section-header p {
+            font-size: 16px;
+            color: #A7ABB6;
+            margin-bottom: 0;
+        }
+
+
+        /* Testimonial Content */
+        .testimonial-content {
+            margin-bottom: 30px;
+        }
+
+        .testimonial-content p {
+            margin-bottom: 2em;
+            color: var(--black-color);
+            text-align: center;
+            line-height: 2em;
+            font-size:1.5em ;
+            font-weight:400 ;
+        }
+
+        /* Google Meet and icon  */
+        .meet-badge{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            position: relative;
+        }
+        .icon{
+            position: absolute;
+            top:0 ;
+            left: 0;
+            width: 2.5em;
+            height: 2.5em;
+        }
+        .icon svg{
+            width:100% ;
+        }
+
+        /* Author Section */
+        .author-info {
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+            text-align: center;
+        }
+
+        .author-name {
+            font-size: 1.2em;
+            font-weight: 700;
+            color: #020B1F;
+            margin-bottom: 5px;
+            line-height: 1.2em;
+            letter-spacing: .1;
+
+        }
+
+        .author-title {
+            font-size: .8em;
+            color: #020B1F;
+            line-height: 1.2em;
+            font-weight: 400;
+
+        }
+        /* Work Together Section */
+        .work-together {
+            background-color: #0041E8;
+            color: white;
+            max-width:90vw;
+            padding: 2.5em;
+            margin:0 5em;
+            border-radius: 2em;
+            margin-bottom: 30px;
+            -webkit-border-radius: 2em;
+            -moz-border-radius: 2em;
+            -ms-border-radius: 2em;
+            -o-border-radius: 2em;
+            position: relative;
+
+}
+
+
+        .work-together h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            font-weight: 700;
+            line-height: 1;
+            letter-spacing: 0;
+        }
+
+        .work-together p {
+            font-size: 1em;
+            font-family: "Asap", sans-serif;
+            line-height: 2em;
+            letter-spacing: 0;
+        }
+        .work-together .regis-btn {
+            position: absolute;
+            top:40% ;
+            right: 5%;
+
+        }
+        .work-together button {
+            color: #1752E9;
+            padding:1em 2em ;
+            text-decoration: none;
+            /*font-family: Inter;
+            */font-weight: 600;
+            border: none;
+            background-color: white;
+            cursor: pointer;
+            border-radius:.5em ;
+            transition: 0.5s;
+            -webkit-border-radius:.5em ;
+            -moz-border-radius:.5em ;
+            -ms-border-radius:.5em ;
+            -o-border-radius:.5em ;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+}
+    .work-together button:hover {
+            background-color: #1752E9;
+            color: white;
+        }
+        .work-background{
+            overflow: hidden;
+        }
+
+        .company-info {
+            margin-bottom: 30px;
+            margin: 0 5em ;
+            padding: 2em 1.2em;
+            max-width: 90vw;
+            display: flex;
+            gap:2em ;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .kreasi-head{
+            width: 25%;
+            margin-right:5em;
+        }
+        .company-info h2 {
+            font-size: 1.5em;
+            color: #383838;
+            line-height: 1;
+            font-weight: 900;
+            margin-bottom: .5em;
+            padding-bottom: .2em;
+        }
+
+        .company-info p {
+            font-size: 15px;
+            color: #A7ABB6;
+            /* font-family: regular; */
+            font-weight: 400;
+            letter-spacing: 0;
+            line-height: 1.6em;
+            margin-bottom: 3.5em;
+        }
+        
+        .contact-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+
+        .contact-table th {
+            text-align: left;
+            padding: .4em .5em;
+            font-weight: 700;
+            color: black;
+            line-height: 1;
+            letter-spacing: 0;
+        }
+
+        .contact-table td {
+            padding: .4em .5em;
+            font-weight: 400;
+            font-size: 1em;
+            letter-spacing: 0;
+            line-height: 1;
+            font-family: "Asap", sans-serif;
+            color:var(--text-secondray-color)
+        }
+
+        .footer {
+            text-align: center;
+            color: var(--text-secondray-color);
+            font-size: 1.1em;
+            margin-top: 30px;
+            letter-spacing: 0;
+            line-height: 1.2em;
+            font-weight: 400;
+        }
+
+        @media (max-width: 600px) {
+            .work-together {
+                padding: 25px;
+            }
+            
+            .contact-table {
+                font-size: 14px;
+            }
+            
+            .contact-table th, 
+            .contact-table td {
+                padding: 8px 10px;
+            }
+        }
